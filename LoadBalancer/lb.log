@@ -1,0 +1,823 @@
+2023-12-05 17:05:56,564 - INFO - Proxy server running on port 80
+2023-12-05 17:06:17,888 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:06:17,923 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:06:17,951 - INFO - Incoming Request: /medfile - 10.0.0.4
+2023-12-05 17:06:18,016 - INFO - Response: 200 - Served by: http://10.0.0.1:80/medfile
+2023-12-05 17:06:18,090 - INFO - Incoming Request: /medfile - 10.0.0.4
+2023-12-05 17:06:18,183 - INFO - Response: 200 - Served by: http://10.0.0.1:80/medfile
+2023-12-05 17:06:18,278 - INFO - Incoming Request: /medfile - 10.0.0.4
+2023-12-05 17:06:18,374 - INFO - Response: 200 - Served by: http://10.0.0.1:80/medfile
+2023-12-05 17:06:18,472 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:06:18,490 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:06:18,530 - INFO - Incoming Request: /medfile - 10.0.0.4
+2023-12-05 17:06:18,604 - INFO - Response: 200 - Served by: http://10.0.0.1:80/medfile
+2023-12-05 17:06:18,698 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:06:18,710 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:06:18,747 - INFO - Incoming Request: /medfile - 10.0.0.4
+2023-12-05 17:06:18,856 - INFO - Response: 200 - Served by: http://10.0.0.1:80/medfile
+2023-12-05 17:06:18,953 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:06:18,972 - INFO - Response: 200 - Served by: http://10.0.0.2:80/vsmfile
+2023-12-05 17:06:19,011 - INFO - Incoming Request: /bigfile - 10.0.0.4
+2023-12-05 17:06:22,056 - INFO - Response: 200 - Served by: http://10.0.0.3:80/bigfile
+2023-12-05 17:06:23,815 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:06:23,955 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:06:23,986 - INFO - Incoming Request: /bigfile - 10.0.0.4
+2023-12-05 17:06:26,654 - INFO - Response: 200 - Served by: http://10.0.0.3:80/bigfile
+2023-12-05 17:06:28,055 - INFO - Incoming Request: /medfile - 10.0.0.4
+2023-12-05 17:06:28,195 - INFO - Response: 200 - Served by: http://10.0.0.1:80/medfile
+2023-12-05 17:06:28,287 - INFO - Incoming Request: /medfile - 10.0.0.4
+2023-12-05 17:06:28,373 - INFO - Response: 200 - Served by: http://10.0.0.1:80/medfile
+2023-12-05 17:06:28,467 - INFO - Incoming Request: /bigfile - 10.0.0.4
+2023-12-05 17:06:30,434 - INFO - Response: 200 - Served by: http://10.0.0.3:80/bigfile
+2023-12-05 17:06:31,599 - INFO - Incoming Request: /bigfile - 10.0.0.4
+2023-12-05 17:06:33,320 - INFO - Response: 200 - Served by: http://10.0.0.3:80/bigfile
+2023-12-05 17:06:34,929 - INFO - Incoming Request: /bigfile - 10.0.0.4
+2023-12-05 17:06:36,895 - INFO - Response: 200 - Served by: http://10.0.0.3:80/bigfile
+2023-12-05 17:06:38,535 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:06:38,549 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:06:38,612 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:06:38,624 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:06:38,674 - INFO - Incoming Request: /medfile - 10.0.0.4
+2023-12-05 17:06:39,036 - INFO - Response: 200 - Served by: http://10.0.0.1:80/medfile
+2023-12-05 17:06:39,146 - INFO - Incoming Request: /bigfile - 10.0.0.4
+2023-12-05 17:06:41,399 - INFO - Response: 200 - Served by: http://10.0.0.3:80/bigfile
+2023-12-05 17:06:43,111 - INFO - Incoming Request: /bigfile - 10.0.0.4
+2023-12-05 17:06:44,855 - INFO - Response: 200 - Served by: http://10.0.0.3:80/bigfile
+2023-12-05 17:06:45,993 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:06:46,010 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:06:46,057 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:06:46,074 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:06:46,121 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:06:46,126 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:06:46,171 - INFO - Incoming Request: /medfile - 10.0.0.4
+2023-12-05 17:06:46,269 - INFO - Response: 200 - Served by: http://10.0.0.1:80/medfile
+2023-12-05 17:06:46,389 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:06:46,402 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:06:46,444 - INFO - Incoming Request: /bigfile - 10.0.0.4
+2023-12-05 17:06:48,387 - INFO - Response: 200 - Served by: http://10.0.0.3:80/bigfile
+2023-12-05 17:06:49,768 - INFO - Incoming Request: /bigfile - 10.0.0.4
+2023-12-05 17:06:51,564 - INFO - Response: 200 - Served by: http://10.0.0.3:80/bigfile
+2023-12-05 17:06:52,794 - INFO - Incoming Request: /bigfile - 10.0.0.4
+2023-12-05 17:06:54,509 - INFO - Response: 200 - Served by: http://10.0.0.3:80/bigfile
+2023-12-05 17:06:56,404 - INFO - Incoming Request: /bigfile - 10.0.0.4
+2023-12-05 17:06:58,413 - INFO - Response: 200 - Served by: http://10.0.0.3:80/bigfile
+2023-12-05 17:07:00,691 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:07:00,755 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:07:00,794 - INFO - Incoming Request: /bigfile - 10.0.0.4
+2023-12-05 17:07:02,724 - INFO - Response: 200 - Served by: http://10.0.0.3:80/bigfile
+2023-12-05 17:07:06,816 - INFO - Incoming Request: /medfile - 10.0.0.4
+2023-12-05 17:07:06,953 - INFO - Response: 200 - Served by: http://10.0.0.1:80/medfile
+2023-12-05 17:07:07,052 - INFO - Incoming Request: /medfile - 10.0.0.4
+2023-12-05 17:07:07,133 - INFO - Response: 200 - Served by: http://10.0.0.1:80/medfile
+2023-12-05 17:07:07,235 - INFO - Incoming Request: /medfile - 10.0.0.4
+2023-12-05 17:07:07,324 - INFO - Response: 200 - Served by: http://10.0.0.1:80/medfile
+2023-12-05 17:07:07,419 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:07:07,435 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:07:07,467 - INFO - Incoming Request: /medfile - 10.0.0.4
+2023-12-05 17:07:07,553 - INFO - Response: 200 - Served by: http://10.0.0.1:80/medfile
+2023-12-05 17:07:07,651 - INFO - Incoming Request: /bigfile - 10.0.0.4
+2023-12-05 17:07:09,473 - INFO - Response: 200 - Served by: http://10.0.0.3:80/bigfile
+2023-12-05 17:07:10,634 - INFO - Incoming Request: /medfile - 10.0.0.4
+2023-12-05 17:07:10,712 - INFO - Response: 200 - Served by: http://10.0.0.1:80/medfile
+2023-12-05 17:07:10,803 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:07:10,937 - INFO - Response: 200 - Served by: http://10.0.0.2:80/smallfile
+2023-12-05 17:07:10,966 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:07:10,980 - INFO - Response: 200 - Served by: http://10.0.0.2:80/vsmfile
+2023-12-05 17:07:11,017 - INFO - Incoming Request: /bigfile - 10.0.0.4
+2023-12-05 17:07:13,130 - INFO - Response: 200 - Served by: http://10.0.0.3:80/bigfile
+2023-12-05 17:07:15,162 - INFO - Incoming Request: /medfile - 10.0.0.4
+2023-12-05 17:07:15,253 - INFO - Response: 200 - Served by: http://10.0.0.1:80/medfile
+2023-12-05 17:07:15,370 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:07:15,382 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:07:15,436 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:07:15,452 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:07:15,503 - INFO - Incoming Request: /bigfile - 10.0.0.4
+2023-12-05 17:07:17,830 - INFO - Response: 200 - Served by: http://10.0.0.3:80/bigfile
+2023-12-05 17:07:19,069 - INFO - Incoming Request: /medfile - 10.0.0.4
+2023-12-05 17:07:19,168 - INFO - Response: 200 - Served by: http://10.0.0.1:80/medfile
+2023-12-05 17:07:19,255 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:07:19,268 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:07:19,308 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:07:19,319 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:07:19,363 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:07:19,382 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:07:19,423 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:07:19,431 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:07:19,474 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:07:19,481 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:07:19,520 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:07:19,738 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:07:19,757 - INFO - Incoming Request: /medfile - 10.0.0.4
+2023-12-05 17:07:19,846 - INFO - Response: 200 - Served by: http://10.0.0.1:80/medfile
+2023-12-05 17:07:19,956 - INFO - Incoming Request: /bigfile - 10.0.0.4
+2023-12-05 17:07:21,782 - INFO - Response: 200 - Served by: http://10.0.0.3:80/bigfile
+2023-12-05 17:07:22,922 - INFO - Incoming Request: /medfile - 10.0.0.4
+2023-12-05 17:07:22,996 - INFO - Response: 200 - Served by: http://10.0.0.1:80/medfile
+2023-12-05 17:07:23,093 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:07:23,105 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:07:23,137 - INFO - Incoming Request: /bigfile - 10.0.0.4
+2023-12-05 17:07:25,023 - INFO - Response: 200 - Served by: http://10.0.0.3:80/bigfile
+2023-12-05 17:07:26,213 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:07:26,224 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:07:26,260 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:07:26,272 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:07:26,315 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:07:26,328 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:07:26,368 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:07:26,390 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:07:26,429 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:07:26,447 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:07:26,495 - INFO - Incoming Request: /bigfile - 10.0.0.4
+2023-12-05 17:07:28,557 - INFO - Response: 200 - Served by: http://10.0.0.3:80/bigfile
+2023-12-05 17:07:30,004 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:07:30,019 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:07:30,057 - INFO - Incoming Request: /medfile - 10.0.0.4
+2023-12-05 17:07:30,198 - INFO - Response: 200 - Served by: http://10.0.0.1:80/medfile
+2023-12-05 17:07:30,346 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:07:30,381 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:07:30,433 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:07:30,440 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:07:30,477 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:07:30,493 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:07:30,539 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:07:30,563 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:07:30,616 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:07:30,636 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:07:30,684 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:07:30,698 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:07:30,754 - INFO - Incoming Request: /medfile - 10.0.0.4
+2023-12-05 17:07:30,853 - INFO - Response: 200 - Served by: http://10.0.0.1:80/medfile
+2023-12-05 17:07:30,957 - INFO - Incoming Request: /bigfile - 10.0.0.4
+2023-12-05 17:07:33,325 - INFO - Response: 200 - Served by: http://10.0.0.3:80/bigfile
+2023-12-05 17:07:34,469 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:07:34,480 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:07:34,522 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:07:34,528 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:07:34,561 - INFO - Incoming Request: /medfile - 10.0.0.4
+2023-12-05 17:07:34,635 - INFO - Response: 200 - Served by: http://10.0.0.1:80/medfile
+2023-12-05 17:07:34,723 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:07:34,736 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:07:34,777 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:07:34,786 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:07:34,825 - INFO - Incoming Request: /medfile - 10.0.0.4
+2023-12-05 17:07:34,924 - INFO - Response: 200 - Served by: http://10.0.0.1:80/medfile
+2023-12-05 17:07:35,021 - INFO - Incoming Request: /medfile - 10.0.0.4
+2023-12-05 17:07:35,114 - INFO - Response: 200 - Served by: http://10.0.0.2:80/medfile
+2023-12-05 17:07:35,192 - INFO - Incoming Request: /medfile - 10.0.0.4
+2023-12-05 17:07:35,262 - INFO - Response: 200 - Served by: http://10.0.0.2:80/medfile
+2023-12-05 17:07:35,335 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:07:35,349 - INFO - Response: 200 - Served by: http://10.0.0.2:80/vsmfile
+2023-12-05 17:07:35,379 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:07:35,393 - INFO - Response: 200 - Served by: http://10.0.0.2:80/vsmfile
+2023-12-05 17:07:35,437 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:07:35,446 - INFO - Response: 200 - Served by: http://10.0.0.2:80/smallfile
+2023-12-05 17:07:35,482 - INFO - Incoming Request: /medfile - 10.0.0.4
+2023-12-05 17:07:35,547 - INFO - Response: 200 - Served by: http://10.0.0.2:80/medfile
+2023-12-05 17:07:35,639 - INFO - Incoming Request: /bigfile - 10.0.0.4
+2023-12-05 17:07:37,224 - INFO - Response: 200 - Served by: http://10.0.0.3:80/bigfile
+2023-12-05 17:07:38,248 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:07:38,264 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:07:38,298 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:07:38,311 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:07:38,349 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:07:38,355 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:07:38,396 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:07:38,409 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:07:38,438 - INFO - Incoming Request: /bigfile - 10.0.0.4
+2023-12-05 17:07:40,699 - INFO - Response: 200 - Served by: http://10.0.0.3:80/bigfile
+2023-12-05 17:07:42,604 - INFO - Incoming Request: /bigfile - 10.0.0.4
+2023-12-05 17:07:45,103 - INFO - Response: 200 - Served by: http://10.0.0.3:80/bigfile
+2023-12-05 17:07:47,539 - INFO - Incoming Request: /bigfile - 10.0.0.4
+2023-12-05 17:07:50,066 - INFO - Response: 200 - Served by: http://10.0.0.3:80/bigfile
+2023-12-05 17:07:57,411 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:07:57,430 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:07:57,541 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:07:57,549 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:07:57,591 - INFO - Incoming Request: /bigfile - 10.0.0.4
+2023-12-05 17:07:59,766 - INFO - Response: 200 - Served by: http://10.0.0.3:80/bigfile
+2023-12-05 17:08:01,447 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:08:01,459 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:08:01,497 - INFO - Incoming Request: /bigfile - 10.0.0.4
+2023-12-05 17:08:03,803 - INFO - Response: 200 - Served by: http://10.0.0.3:80/bigfile
+2023-12-05 17:08:05,434 - INFO - Incoming Request: /bigfile - 10.0.0.4
+2023-12-05 17:08:08,276 - INFO - Response: 200 - Served by: http://10.0.0.3:80/bigfile
+2023-12-05 17:08:12,151 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:08:12,170 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:08:12,216 - INFO - Incoming Request: /bigfile - 10.0.0.4
+2023-12-05 17:08:14,158 - INFO - Response: 200 - Served by: http://10.0.0.3:80/bigfile
+2023-12-05 17:08:16,048 - INFO - Incoming Request: /bigfile - 10.0.0.4
+2023-12-05 17:08:17,651 - INFO - Response: 200 - Served by: http://10.0.0.3:80/bigfile
+2023-12-05 17:08:19,601 - INFO - Incoming Request: /medfile - 10.0.0.4
+2023-12-05 17:08:19,819 - INFO - Response: 200 - Served by: http://10.0.0.1:80/medfile
+2023-12-05 17:08:19,931 - INFO - Incoming Request: /bigfile - 10.0.0.4
+2023-12-05 17:08:22,931 - INFO - Response: 200 - Served by: http://10.0.0.3:80/bigfile
+2023-12-05 17:08:24,653 - INFO - Incoming Request: /medfile - 10.0.0.4
+2023-12-05 17:08:24,773 - INFO - Response: 200 - Served by: http://10.0.0.1:80/medfile
+2023-12-05 17:08:24,897 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:08:24,911 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:08:24,961 - INFO - Incoming Request: /bigfile - 10.0.0.4
+2023-12-05 17:08:27,917 - INFO - Response: 200 - Served by: http://10.0.0.3:80/bigfile
+2023-12-05 17:08:28,741 - ERROR - Error: [Errno 104] Connection reset by peer
+2023-12-05 17:22:14,429 - INFO - Proxy server running on port 80
+2023-12-05 17:23:40,583 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:40,631 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:23:40,699 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:40,728 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:23:40,805 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:40,823 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:23:40,884 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:40,913 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:23:40,968 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:40,999 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:23:41,071 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:41,100 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:23:41,167 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:41,197 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:23:41,289 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:41,301 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:23:41,364 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:41,423 - INFO - Response: 200 - Served by: http://10.0.0.2:80/smallfile
+2023-12-05 17:23:41,501 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:41,560 - INFO - Response: 200 - Served by: http://10.0.0.2:80/smallfile
+2023-12-05 17:23:41,679 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:41,707 - INFO - Response: 200 - Served by: http://10.0.0.2:80/smallfile
+2023-12-05 17:23:41,769 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:41,798 - INFO - Response: 200 - Served by: http://10.0.0.2:80/smallfile
+2023-12-05 17:23:41,860 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:41,870 - INFO - Response: 200 - Served by: http://10.0.0.2:80/vsmfile
+2023-12-05 17:23:41,938 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:41,961 - INFO - Response: 200 - Served by: http://10.0.0.2:80/smallfile
+2023-12-05 17:23:42,016 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:42,051 - INFO - Response: 200 - Served by: http://10.0.0.2:80/vsmfile
+2023-12-05 17:23:42,136 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:42,158 - INFO - Response: 200 - Served by: http://10.0.0.2:80/smallfile
+2023-12-05 17:23:42,243 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:42,268 - INFO - Response: 200 - Served by: http://10.0.0.2:80/vsmfile
+2023-12-05 17:23:42,364 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:42,382 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:23:42,458 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:42,486 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:23:42,558 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:42,596 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:23:42,685 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:42,719 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:23:42,801 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:42,820 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:23:42,914 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:42,956 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:23:43,040 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:43,105 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:23:43,196 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:43,221 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:23:43,288 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:43,341 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:23:43,430 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:43,449 - INFO - Response: 200 - Served by: http://10.0.0.2:80/vsmfile
+2023-12-05 17:23:43,527 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:43,554 - INFO - Response: 200 - Served by: http://10.0.0.2:80/vsmfile
+2023-12-05 17:23:43,611 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:43,628 - INFO - Response: 200 - Served by: http://10.0.0.2:80/smallfile
+2023-12-05 17:23:43,686 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:43,714 - INFO - Response: 200 - Served by: http://10.0.0.2:80/vsmfile
+2023-12-05 17:23:43,787 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:43,809 - INFO - Response: 200 - Served by: http://10.0.0.2:80/smallfile
+2023-12-05 17:23:43,887 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:43,908 - INFO - Response: 200 - Served by: http://10.0.0.2:80/vsmfile
+2023-12-05 17:23:43,976 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:44,001 - INFO - Response: 200 - Served by: http://10.0.0.2:80/smallfile
+2023-12-05 17:23:44,111 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:44,150 - INFO - Response: 200 - Served by: http://10.0.0.2:80/vsmfile
+2023-12-05 17:23:44,236 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:44,262 - INFO - Response: 200 - Served by: http://10.0.0.2:80/smallfile
+2023-12-05 17:23:44,332 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:44,349 - INFO - Response: 200 - Served by: http://10.0.0.2:80/smallfile
+2023-12-05 17:23:44,424 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:44,439 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:23:44,492 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:44,516 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:23:44,628 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:44,655 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:23:44,737 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:44,767 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:23:44,863 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:44,911 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:23:45,013 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:45,052 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:23:45,128 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:45,153 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:23:45,234 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:45,293 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:23:45,398 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:45,428 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:23:45,504 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:45,559 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:23:45,621 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:45,648 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:23:45,688 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:45,719 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:23:45,768 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:45,814 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:23:45,914 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:45,936 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:23:46,018 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:46,044 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:23:46,107 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:46,133 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:23:46,206 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:46,239 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:23:46,323 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:46,347 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:23:46,421 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:46,442 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:23:46,535 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:46,566 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:23:46,644 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:46,678 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:23:46,750 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:46,777 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:23:46,834 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:46,865 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:23:46,940 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:46,957 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:23:47,034 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:47,062 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:23:47,130 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:47,162 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:23:47,257 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:47,291 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:23:47,346 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:47,360 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:23:47,419 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:47,450 - INFO - Response: 200 - Served by: http://10.0.0.2:80/smallfile
+2023-12-05 17:23:47,518 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:47,561 - INFO - Response: 200 - Served by: http://10.0.0.2:80/smallfile
+2023-12-05 17:23:47,638 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:47,665 - INFO - Response: 200 - Served by: http://10.0.0.2:80/vsmfile
+2023-12-05 17:23:47,728 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:47,744 - INFO - Response: 200 - Served by: http://10.0.0.2:80/smallfile
+2023-12-05 17:23:47,810 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:47,819 - INFO - Response: 200 - Served by: http://10.0.0.2:80/smallfile
+2023-12-05 17:23:47,876 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:47,911 - INFO - Response: 200 - Served by: http://10.0.0.2:80/vsmfile
+2023-12-05 17:23:47,996 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:48,030 - INFO - Response: 200 - Served by: http://10.0.0.2:80/vsmfile
+2023-12-05 17:23:48,095 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:48,127 - INFO - Response: 200 - Served by: http://10.0.0.2:80/vsmfile
+2023-12-05 17:23:48,183 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:48,232 - INFO - Response: 200 - Served by: http://10.0.0.2:80/smallfile
+2023-12-05 17:23:48,313 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:48,337 - INFO - Response: 200 - Served by: http://10.0.0.2:80/vsmfile
+2023-12-05 17:23:48,430 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:48,463 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:23:48,512 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:48,529 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:23:48,588 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:48,611 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:23:48,681 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:48,702 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:23:48,748 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:48,773 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:23:48,824 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:48,843 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:23:48,902 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:48,919 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:23:48,976 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:49,004 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:23:49,063 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:49,079 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:23:49,131 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:49,139 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:23:49,184 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:49,218 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:23:49,291 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:49,329 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:23:49,387 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:49,409 - INFO - Response: 200 - Served by: http://10.0.0.2:80/vsmfile
+2023-12-05 17:23:49,479 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:49,498 - INFO - Response: 200 - Served by: http://10.0.0.2:80/smallfile
+2023-12-05 17:23:49,553 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:49,583 - INFO - Response: 200 - Served by: http://10.0.0.2:80/smallfile
+2023-12-05 17:23:49,630 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:49,648 - INFO - Response: 200 - Served by: http://10.0.0.2:80/vsmfile
+2023-12-05 17:23:49,689 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:49,718 - INFO - Response: 200 - Served by: http://10.0.0.2:80/smallfile
+2023-12-05 17:23:49,798 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:49,822 - INFO - Response: 200 - Served by: http://10.0.0.2:80/vsmfile
+2023-12-05 17:23:49,909 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:49,921 - INFO - Response: 200 - Served by: http://10.0.0.2:80/smallfile
+2023-12-05 17:23:49,985 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:50,006 - INFO - Response: 200 - Served by: http://10.0.0.2:80/smallfile
+2023-12-05 17:23:50,093 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:50,158 - INFO - Response: 200 - Served by: http://10.0.0.2:80/smallfile
+2023-12-05 17:23:50,240 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:50,279 - INFO - Response: 200 - Served by: http://10.0.0.2:80/smallfile
+2023-12-05 17:23:50,349 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:50,384 - INFO - Response: 200 - Served by: http://10.0.0.2:80/smallfile
+2023-12-05 17:23:50,498 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:50,542 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:23:50,618 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:50,641 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:23:50,748 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:50,772 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:23:50,855 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:50,900 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:23:51,008 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:51,044 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:23:51,146 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:51,179 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:23:51,264 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:51,312 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:23:51,399 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:51,430 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:23:51,511 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:51,550 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:23:51,625 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:51,635 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:23:51,731 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:51,757 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:23:51,819 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:51,847 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:23:51,924 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:51,958 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:23:52,052 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:52,087 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:23:52,184 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:52,198 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:23:52,271 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:52,312 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:23:52,413 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:52,433 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:23:52,501 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:52,524 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:23:52,559 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:52,601 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:23:52,698 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:52,725 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:23:52,814 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:52,855 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:23:52,921 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:52,983 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:23:53,053 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:53,069 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:23:53,134 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:53,149 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:23:53,188 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:53,197 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:23:53,258 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:53,267 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:23:53,313 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:53,335 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:23:53,388 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:53,411 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:23:53,460 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:53,475 - INFO - Response: 200 - Served by: http://10.0.0.2:80/smallfile
+2023-12-05 17:23:53,559 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:53,580 - INFO - Response: 200 - Served by: http://10.0.0.2:80/vsmfile
+2023-12-05 17:23:53,619 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:53,643 - INFO - Response: 200 - Served by: http://10.0.0.2:80/smallfile
+2023-12-05 17:23:53,702 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:53,713 - INFO - Response: 200 - Served by: http://10.0.0.2:80/vsmfile
+2023-12-05 17:23:53,758 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:53,786 - INFO - Response: 200 - Served by: http://10.0.0.2:80/smallfile
+2023-12-05 17:23:53,874 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:53,905 - INFO - Response: 200 - Served by: http://10.0.0.2:80/vsmfile
+2023-12-05 17:23:54,001 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:54,041 - INFO - Response: 200 - Served by: http://10.0.0.2:80/vsmfile
+2023-12-05 17:23:54,160 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:54,179 - INFO - Response: 200 - Served by: http://10.0.0.2:80/vsmfile
+2023-12-05 17:23:54,266 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:54,283 - INFO - Response: 200 - Served by: http://10.0.0.2:80/smallfile
+2023-12-05 17:23:54,368 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:54,388 - INFO - Response: 200 - Served by: http://10.0.0.2:80/vsmfile
+2023-12-05 17:23:54,481 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:54,542 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:23:54,650 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:54,679 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:23:54,744 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:54,761 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:23:54,870 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:54,915 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:23:55,003 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:55,039 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:23:55,129 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:55,160 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:23:55,228 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:55,270 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:23:55,380 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:55,420 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:23:55,513 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:55,551 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:23:55,616 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:55,643 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:23:55,788 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:55,816 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:23:55,913 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:55,947 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:23:56,041 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:23:56,092 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:23:56,192 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:56,238 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:23:56,338 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:23:56,388 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:25:26,578 - INFO - Proxy server running on port 80
+2023-12-05 17:25:38,434 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:38,474 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:38,542 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:38,572 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:38,626 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:38,646 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:38,702 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:38,735 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:38,799 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:38,823 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:38,887 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:38,911 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:38,984 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:39,001 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:39,076 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:39,108 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:39,198 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:39,221 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:39,285 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:39,306 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:39,385 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:39,409 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:39,486 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:25:39,510 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:25:39,594 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:39,629 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:39,721 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:39,749 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:39,804 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:39,819 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:39,899 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:39,924 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:40,006 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:40,040 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:40,114 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:40,157 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:40,220 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:25:40,243 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:25:40,295 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:40,329 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:40,387 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:40,397 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:40,440 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:25:40,490 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:25:40,557 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:40,579 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:40,667 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:25:40,705 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:25:40,785 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:40,820 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:40,894 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:25:40,923 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:25:41,034 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:41,074 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:41,155 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:41,176 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:41,245 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:25:41,260 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:25:41,312 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:41,328 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:41,402 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:41,424 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:41,494 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:25:41,547 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:25:41,636 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:41,671 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:41,738 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:41,759 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:41,831 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:25:41,871 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:25:41,947 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:41,988 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:42,073 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:42,103 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:42,168 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:42,190 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:42,256 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:42,273 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:42,329 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:42,359 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:42,431 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:25:42,472 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:25:42,554 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:42,594 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:42,690 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:42,738 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:42,831 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:42,866 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:42,961 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:42,992 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:43,090 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:25:43,131 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:25:43,252 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:43,287 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:43,403 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:43,449 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:43,541 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:43,583 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:43,673 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:43,705 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:43,778 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:43,816 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:43,897 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:43,924 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:43,983 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:44,011 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:44,098 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:44,134 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:44,210 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:44,240 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:44,329 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:25:44,356 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:25:44,438 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:44,468 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:44,549 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:44,573 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:44,656 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:44,666 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:44,726 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:44,741 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:44,815 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:25:44,856 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:25:44,928 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:44,967 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:45,041 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:45,084 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:45,155 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:45,186 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:45,249 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:45,283 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:45,380 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:45,413 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:45,488 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:25:45,524 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:25:45,617 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:45,649 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:45,728 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:45,762 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:45,847 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:45,874 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:45,958 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:45,984 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:46,050 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:46,096 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:46,233 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:46,328 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:46,475 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:46,497 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:46,590 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:46,628 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:46,711 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:25:46,740 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:25:46,810 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:46,847 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:46,918 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:46,955 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:47,029 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:47,060 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:47,145 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:47,172 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:47,254 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:25:47,292 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:25:47,380 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:47,429 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:47,529 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:25:47,572 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:25:47,682 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:47,718 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:47,796 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:47,822 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:47,952 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:47,972 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:48,065 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:48,107 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:48,185 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:25:48,222 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:25:48,314 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:48,360 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:48,407 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:48,433 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:48,534 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:48,579 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:48,651 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:48,668 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:48,742 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:48,765 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:48,835 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:25:48,870 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:25:48,944 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:25:49,000 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:25:49,076 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:49,104 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:49,176 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:49,195 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:49,278 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:25:49,521 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:25:49,596 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:49,636 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:49,716 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:49,731 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:49,799 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:49,832 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:49,900 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:49,937 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:50,012 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:50,055 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:50,158 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:50,197 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:50,258 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:25:50,278 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:25:50,323 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:50,332 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:50,373 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:50,392 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:50,435 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:25:50,506 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:25:50,557 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:50,581 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:50,618 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:50,636 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:50,716 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:50,723 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:50,772 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:25:50,790 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:25:50,848 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:50,863 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:50,927 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:50,949 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:51,013 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:51,038 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:51,105 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:51,130 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:51,182 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:51,209 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:51,276 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:25:51,504 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:25:51,553 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:51,567 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:51,645 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:51,656 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:51,708 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:51,731 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:51,790 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:25:51,835 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:25:51,908 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:51,939 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:52,002 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:52,020 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:52,083 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:25:52,103 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:25:52,174 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:52,192 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:52,266 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:52,283 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:52,356 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:52,380 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:52,423 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:25:52,437 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:25:52,483 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:52,498 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:52,540 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:52,555 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:52,630 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:25:52,662 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:25:53,176 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:53,211 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:53,311 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:25:53,345 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:25:53,425 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:53,462 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:53,520 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:53,546 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:53,603 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:53,622 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:53,683 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:25:53,695 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:25:53,758 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:53,776 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:53,847 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:53,872 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:53,914 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:53,928 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:53,985 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:53,994 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:54,049 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:25:54,078 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:25:54,119 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:25:54,144 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:25:54,194 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:54,210 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:54,259 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:54,287 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:54,326 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:54,345 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:54,410 - INFO - Incoming Request: /smallfile - 10.0.0.4
+2023-12-05 17:25:54,450 - INFO - Response: 200 - Served by: http://10.0.0.1:80/smallfile
+2023-12-05 17:25:54,505 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:54,515 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-05 17:25:54,552 - INFO - Incoming Request: /vsmfile - 10.0.0.4
+2023-12-05 17:25:54,571 - INFO - Response: 200 - Served by: http://10.0.0.1:80/vsmfile
+2023-12-06 12:41:51,657 - INFO - Proxy server running on port 80
