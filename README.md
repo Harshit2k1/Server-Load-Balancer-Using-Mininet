@@ -1,6 +1,4 @@
-  Server Load Balancer with MiniNet
-
-# Server Load Balancer with MiniNet
+# Server Load Balancer with MiniNet (based on Network Link Utilization)
 
 This project implements a server load balancer using MiniNet. It consists of a custom topology with multiple servers, a load balancer, and clients. The system efficiently distributes HTTP requests among multiple servers, ensuring balanced resource usage **based on the Network Utilization of Servers**.
 
